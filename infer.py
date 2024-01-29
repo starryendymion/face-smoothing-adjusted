@@ -66,7 +66,7 @@ def load_configs():
     configs : dict
         A dictionary containing the configs
     """
-    with open('/content/drive/My Drive/Colab Notebooks/face-smoothing'\
+    with open('/content/face-smoothing'\
                '/configs/configs.yaml', 'r') as file:
         return yaml.load(file, Loader=yaml.FullLoader)
 
